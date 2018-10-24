@@ -1,0 +1,108 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Navbar-->
+        <header>
+            <div class="contianer">
+                <a id="header-title" href="index.html">About Me</a>
+                    <ul id="header-nav">
+                        <li><a href="aboutthebasics.html">About the Basics</a></li>
+                        <li><a href="travelgoals.html">Travel Goals</a></li>
+                        <li><a href="foodie.html">Foodie</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </div>
+        </header>
+    
+        <h1 style="font-family: helvetica; text-align: center">Contact</h1>
+        <center>    
+            <form style="font-family: helvetica">
+                <label>First Name</label>
+                <br />
+                <input type="text" name="firstName" placeholder="John" />
+                <br />
+                
+                <label>Last Name</label>
+                <br />
+                <input type="text" name="lastName" placeholder="Doe" /> 
+                <br/>
+
+                <label>Birthday</label>
+                <br />
+                <input type="text" name="birthday" placeholder="Birthday" />
+                <br />
+
+                <label>Radio</label>
+                <br />
+                <input type="radio" name="radio" />
+                <br />
+                
+                <label>Email</label>
+                <br />
+                <input type="email" name="email"  placeholder="Email" />
+                <br />
+
+                <label>Password</label>
+                <br />
+                <input type="password" name="password" placeholder="Password" /> 
+                <br />
+                
+                <label>Dropdown</label>
+                <br />
+                <!--Drop down options-->
+                <select name="edu">
+                    <option value="ns">North School</option>
+                    <option value="es">East School</option>
+                    <option value="ss">South School</option>
+                    <option value="ws">West School</option>
+                    <option value="as">Alianza School</option>
+                </select>
+                <br />
+                
+                <label>Text Area</label>
+                <br />
+                <textarea rows="10" cols="25" name="tweet" placeholder="I hate snakeu (bio)"></textarea>
+                <br />
+
+                <label>Calendar</label>
+                <br />
+                <input type="date" name="timeOfYear">
+
+                <!--<input type="sumbit" /> or use below to submit form-->
+                <button type="submit">Apply</button>
+                <button type="button" onclick="alert('hello snakeu')" >Click Here</button>
+            </form> 
+        </center>
+
+        <footer>
+            <div class="container">
+                <div class="column footer-left">
+                    <h4 class="footer-name">Links</h4>
+                    <p class="footer-links">
+                        <a href="aboutthebasics.html">About the Basics</a>
+                        <br />
+                        <a href="travelgoals.html">Travel Goals</a>
+                        <br />
+                        <a href="contact.html">Contact</a>
+                    </p>
+                </div>
+                <div class="column footer-right">
+                    <p class="footer-links">
+                        <a href="foodie.html">Foodie</a>
+                        <br />
+                        <a href="entertainment.html">Entertainment</a>
+                        <br />
+                        <a href="music.html">Music</a>
+                    </div>
+                </div>
+        </footer>
+    </body>
+</html>
